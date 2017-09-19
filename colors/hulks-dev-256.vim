@@ -74,7 +74,7 @@ hi CursorColumn     cterm=NONE			    ctermfg=NONE		ctermbg=236
 hi Directory        cterm=NONE              ctermfg=149         ctermbg=NONE
 hi ErrorMsg         cterm=bold              ctermfg=15          ctermbg=9
 hi LineNr           cterm=NONE              ctermfg=245         ctermbg=238
-hi MatchParen       cterm=bold              ctermfg=0           ctermbg=149
+hi MatchParen       cterm=bold              ctermfg=5          ctermbg=149
 hi ModeMsg          cterm=NONE              ctermfg=15          ctermbg=NONE
 hi MoreMsg          cterm=NONE              ctermfg=149         ctermbg=NONE
 hi NonText          cterm=bold              ctermfg=239         ctermbg=NONE
@@ -135,8 +135,8 @@ hi FoldColumn       cterm=NONE              ctermfg=15          ctermbg=237
 """"""
 " SEARCH
 """"""""""""""""""""""""
-hi IncSearch        cterm=NONE              ctermfg=15          ctermbg=149
-hi Search           cterm=NONE              ctermfg=15          ctermbg=149
+hi IncSearch        cterm=NONE              ctermfg=15          ctermbg=4
+hi Search           cterm=NONE              ctermfg=15          ctermbg=4
 
 
 "vim: sw=4
