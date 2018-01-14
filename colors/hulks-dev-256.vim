@@ -22,6 +22,9 @@ hi Comment          cterm=NONE	        ctermfg=66      ctermbg=NONE
 
 hi Identifier       cterm=NONE          ctermfg=5       ctermbg=NONE
 hi Function         cterm=NONE          ctermfg=15      ctermbg=NONE
+hi CustomFunc       cterm=NONE          ctermfg=15      ctermbg=NONE
+hi CustomClass      cterm=NONE          ctermfg=15      ctermbg=NONE
+hi Member           cterm=NONE          ctermfg=11      ctermbg=NONE
 
 hi Statement        cterm=bold          ctermfg=149     ctermbg=NONE
 hi Conditional      cterm=bold          ctermfg=149     ctermbg=NONE
@@ -42,11 +45,11 @@ hi StorageClass     cterm=NONE          ctermfg=149     ctermbg=NONE
 hi Structure        cterm=NONE          ctermfg=110     ctermbg=NONE
 hi Typedef          cterm=NONE          ctermfg=149     ctermbg=NONE
 
-hi Special          cterm=NONE          ctermfg=15      ctermbg=NONE
+hi Special          cterm=NONE          ctermfg=14      ctermbg=NONE
 hi SpecialChar      cterm=NONE          ctermfg=15      ctermbg=NONE
 hi Tag              cterm=NONE          ctermfg=149     ctermbg=NONE
 hi Delimiter        cterm=NONE          ctermfg=15      ctermbg=NONE
-hi SpecialComment   cterm=NONE          ctermfg=15      ctermbg=NONE
+hi SpecialComment   cterm=NONE          ctermfg=14      ctermbg=NONE
 hi Debug            cterm=NONE          ctermfg=15      ctermbg=NONE
 
 hi xmlTagName       cterm=NONE			    ctermfg=149			ctermbg=NONE
@@ -90,9 +93,9 @@ hi WildMenu         cterm=NONE          ctermfg=15      ctermbg=236
 """"""
 " TABS
 """"""""""""""""""""""""
-hi TabLine          cterm=bold,reverse  ctermfg=0	      ctermbg=240
-hi TabLineFill      cterm=bold,reverse  ctermfg=0	      ctermbg=240
-hi TabLineSel       cterm=bold,reverse  ctermfg=0	      ctermbg=240
+hi TabLine          cterm=bold          ctermfg=235     ctermbg=245
+hi TabLineFill      cterm=bold          ctermfg=235     ctermbg=235
+hi TabLineSel       cterm=bold          ctermfg=16      ctermbg=190
 
 
 """"""

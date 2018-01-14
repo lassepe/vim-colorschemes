@@ -113,7 +113,7 @@ else
     hi SignColumn     term=standout ctermfg=51 ctermbg=250
     hi TabLine        term=underline cterm=underline ctermbg=248
     hi TabLineSel     term=bold cterm=bold
-    hi TabLineFill    term=reverse ctermfg=234 ctermbg=252
+    hi TabLineFill    term=bold ctermfg=234 ctermbg=252
     hi CursorColumn   term=reverse ctermbg=235
     hi CursorLine     term=underline ctermbg=235
     hi Cursor         ctermfg=16 ctermbg=120
